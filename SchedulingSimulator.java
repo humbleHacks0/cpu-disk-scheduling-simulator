@@ -11,7 +11,7 @@ import javax.swing.*;
  */
 public class SchedulingSimulator
 {
-    static String sim_groupNumber = "9";   
+    static String sim_groupNumber = "11";   
     static String sim_group = "Bernie Bears";
     static String[] sim_members = { "Aguirre, Matthew", "Basada, Maxine", "Dela Llarte, Regina", "Valenzuela, AJ" };
     static String[] sim_algorithms = { "Round Robin", "C-LOOK", "SJF", "SCAN" };   
