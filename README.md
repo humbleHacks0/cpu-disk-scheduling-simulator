@@ -4,7 +4,7 @@ Code was developed locally via Google Drive and committed to the repository at t
 # CPU and Disk Scheduling Simulator
 
 **Course:** ICS26012 – Operating Systems
-**Group:** Bernie Bears (Group No. 9)
+**Group:** Bernie Bears (Group No. 11)
 
 A Java Swing app that simulates two CPU scheduling and two disk scheduling algorithms.
 
