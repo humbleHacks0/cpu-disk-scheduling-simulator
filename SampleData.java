@@ -1,9 +1,5 @@
 /**
- * Sample inputs for the "Load Sample Data" buttons.
- * NOTE: replace these values with the facilitator's practice problem sets.
- * The CPU set has 10 processes and an idle gap (CPU idle from 29 to 40).
- * The disk set has 20 requests, with a duplicate (67), a request equal to the
- * head (53) and requests on both boundaries (0 and 199).
+ * Load Data Sample Button (practice problems from previous discussions)
  */
 public class SampleData
 {
