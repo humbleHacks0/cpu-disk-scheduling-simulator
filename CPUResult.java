@@ -2,8 +2,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Output of a CPU scheduling run. Holds the Gantt segments and every metric
- * required by the project, computed with the standard conventions:
+ * Output of a CPU scheduling run:
  *   Turnaround  = Completion - Arrival
  *   Waiting     = Turnaround - Burst
  *   Response    = First CPU time - Arrival
@@ -30,7 +29,7 @@ public class CPUResult
         waiting = new int[n];
         response = new int[n];
 
-        // first time each process gets the CPU, and total busy time
+        // first time each process gets the CPU and total busy time
         int[] firstStart = new int[n];
         Arrays.fill(firstStart, -1);
         int busy = 0;
