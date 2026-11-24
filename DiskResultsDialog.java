@@ -10,6 +10,7 @@ import javax.swing.table.DefaultTableModel;
  */
 class DiskResultsDialog extends JDialog
 {
+    // this initializes the results windows and adds the title
     public DiskResultsDialog(JFrame fmb_parent, DiskScheduler fmb_scheduler, DiskResult fmb_result)
     {
         super(fmb_parent, fmb_scheduler.getName() + " Results", true);
