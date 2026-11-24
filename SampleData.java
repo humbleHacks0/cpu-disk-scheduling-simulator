@@ -3,7 +3,6 @@
  */
 public class SampleData
 {
-    // { arrival time, burst time } for P1..P10
     public static final int[][] CPU_PROCESSES = {
         { 0, 5 }, { 1, 3 }, { 2, 8 }, { 3, 2 }, { 4, 4 },
         { 6, 1 }, { 7, 6 }, { 40, 3 }, { 41, 5 }, { 42, 2 }
