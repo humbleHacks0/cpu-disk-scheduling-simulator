@@ -4,8 +4,6 @@ import javax.swing.*;
 
 /**
  * Main menu of the CPU and Disk Scheduling Simulator.
- * Each algorithm lives in its own class and is plugged in through the shared
- * CPUScheduler / DiskScheduler interfaces:
  *   SJF         - SJFScheduler         (Regina Dela Llarte)
  *   Round Robin - RoundRobinScheduler  (Matthew Aguirre)
  *   SCAN        - ScanScheduler        (AJ Valenzuela)
@@ -13,10 +11,10 @@ import javax.swing.*;
  */
 public class SchedulingSimulator
 {
-    static String sim_groupNumber = "TBD";   // TODO: put the assigned group number here
+    static String sim_groupNumber = "9";   
     static String sim_group = "Bernie Bears";
     static String[] sim_members = { "Aguirre, Matthew", "Basada, Maxine", "Dela Llarte, Regina", "Valenzuela, AJ" };
-    static String[] sim_algorithms = { "Round Robin", "C-LOOK", "SJF", "SCAN" };   // same order as sim_members
+    static String[] sim_algorithms = { "Round Robin", "C-LOOK", "SJF", "SCAN" };   
 
     static JFrame sim_menu;
 
